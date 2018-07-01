@@ -1,0 +1,36 @@
+* Introduction & Overview 2018
+
+# The AWS Partner Program
+
+Partner     Associate Certs     Professional Certs
+Standard      2                      0
+Advanced      4                      4
+Premier       20                     8
+
+# How the exams fit together
+
+Professional Tier: Certified Solutions Architect Professional, 
+                   Devops Professional
+
+Associate Tier: Certified Solutions Architect,
+                Certified Developer Associate,
+                Certified Sysops Administrator Associate
+
+
+# Easiest Exam to Hardest Exam
+
+Certified Cloud Practioner (Easiest)
+Developer Associate
+Solutions Architect Associate
+Sysops Administrator Associate
+Security Specialty
+Big Data Specialty
+Advanced Networking Specialty
+Devops Pro
+Solutions Architect Professional (Hardest)
+
+# Links
+https://aws.amazon.com/free/
+AWS this week: acloud.guru/aws-this-week
+Guru of the week: fb/acloudguru
+https://acloud.guru
