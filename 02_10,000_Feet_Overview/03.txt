@@ -1,1 +1,45 @@
 * AWS - Thouand Feet Overview Part 2
+
+# Compute
+1. EC2 - (Elastic Compute Cloud) Virtual Machines in AWS platform
+2. EC2 Container Services - Run and manage Docker containers at scale
+3. Elastic Beanstalk - Developers who don't understand AWS and who just want to upload their code.
+4. Lambda - Code that upload to the cloud and you control when you executes. You don't have to worry abput any underlying physical or Virtual machines. There is nothing to manage.
+5. Lightsail - VPS Service (Virtual Private Service). Basically designed for people who does not want to learn anything about AWS. This will provision you with a server, it will give you a fixed IP address that you can log into the server from and will give RDP access fro windows and ssh access for linux. Comes with a cool management console.
+6. Batch -  Used for batch computing. (not in any certification course)
+
+# Storage
+1. S3 - (Simple Storage Services) Basically you have buckets and you upload your files in buckets that are in the cloud.
+2. EFS - (Elastic File System) - Basically network attached storage. We can store files in EFS volume and mount that to multiple virtual machines.
+3. Glacier - Used for data archival
+4. Snowball - Way to bring in large amount of data into AWS data center. rather than transmitting it over broadband line and some kind of WiFi, if you are bringning in terrabytes sometimes its just easier to write it physically to a disk and send that to an AWS data center and import it manually.
+5. Storage Gateway - Virtual machines you install in your data center and replicate information back to S3. There are 4 different types.
+
+# Databases
+1. RDS - (Relational Database Service)
+2. DynamoDB - Non Relational Database
+3. Elasticache - Way of caching basically commonly queried things from your database center
+4. Red Shift - Data warehouses or Business Intelligence - You will be doing complex queries, may be the management wants to know about the profit and loss of a particular item, you can do that in the production database but that's gonna take a lot of time, might have a lot of joins etc., makes a lot more sense to use a sevice like Red Shift which is built for data warehousing
+
+# Migration
+1. AWS Migration Hub - Tracking service allows you to track your applications as you migrate them to AWS and integrates with other sevices within the Migration frameowrk
+2. Application Discovery Service - Automated set of tools that not only detects what all applications you have, but what their dependencies are. Say you have a SayPoint server for example it may have a dependency on a SQL server. Application Discovery Service is a way of tracking all your dependencies.
+3. Database Migration Service - Very easy way to migrate your databases on premise into AWS
+4. Server Migration Service - Helps you migrate virtual and physical servers up into the AWS cloud
+5. Snowball - Way to bring in large amount of data into AWS data center. rather than transmitting it over broadband line and some kind of WiFi, if you are bringning in terrabytes sometimes its just easier to write it physically to a disk and send that to an AWS data center and import it manually.
+
+# Networking and Content Delivery
+1. VPC - (Amazon Virtual Private Cloud) Virtual Data Centers. You can figure things out like firewalls, availability zones and configure network sider address ranges
+2. CloudFront - Amazon's Content Delivery Network, If you think about your media assets or video files. If you got users in Australia and your video files or image files are stored say in London, CloudFront stores closer to your users in Australia so that they don't  have to go and access the information directly from London. They can actually access it from a nearby edge location.
+3. Route53 -  Amazon's DNS Service - it will give a ipv4 and ipv6 address
+4. API Gateway -  A way of creating your own APIs for your other services to talk to.
+5. Direct Connect - Basically a dedicated line from your corporate head office or from your data center into Amazon and it will directly connect into your VPC.
+
+# Developer Tools
+1. CodeStar - A way of  getting a group of developers working quite easily. Essencially its project managing your code. You basically set up your code and you have a continuous delivery tool chain and you can release your code within minutes.
+2. CodeCommit - Store your code, source control service
+3. CodeBuild - It will compile your code and will run test against it, and then will basically produce software packages that are ready to deploy.
+4. CodeDeploy - Deployement Service. Basically automates application deployments to your EC2 instances, on premise instances as well as to your lambda functions
+5. CodePipeline - Basically a continuous delivery service. model, visualize or automate that's required to release your software
+6. X-Ray - Used to debug and analyze your serverless applications. It has request tracings, you can actually go in and find the root causes of issues and performance bottlenecks.
+7. Cloud9 - IDE (Integrated Development Environment), you can develop your code inside your AWS console. You can do it inside your web browser.

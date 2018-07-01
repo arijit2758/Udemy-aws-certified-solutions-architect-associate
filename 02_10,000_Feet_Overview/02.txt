@@ -1,1 +1,15 @@
 * AWS - Thouand Feet Overview Part 1
+
+# AWS Global Infrastructure
+16 Regions and 14 Availability Zones - December 2017
+6 More Regions & 17 more AZ's for 2018
+
+# Region and Availability Zone
+A region is a geographical area. Each region consists of 2 (or more) Availability Zones.
+An Availability Zone (AZ) is simply a data center.
+
+# Edge Location
+Edge Locations are endpoints for AWS which are use used for caching content. Typically this consists of CloudFront, Amazon's Content Delivery Network (CDN).
+There are more Edge Locations than regions.
+Currently there are 96 Edge Locations.
+

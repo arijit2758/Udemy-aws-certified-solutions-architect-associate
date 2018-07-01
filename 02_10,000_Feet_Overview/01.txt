@@ -1,1 +1,27 @@
 * The History Of AWS So Far
+
+# Inception at 2003
+
+# A Brief timeline of AWS
+
+2003 - Chris Pinkhan and Benjamin Black present a paper on what Amazon's own infrastructure should look like
+Suggested selling it as service and prepared a business case
+SQS officially in 2004
+AWS officially launched in 2006
+2007 over 180,000 developers on platform
+2010 all of amazon.com moved over to AWS
+2012 First reinvent conference
+2013 Certification launched
+2014 Committed to achieve 100% renewable energy usage for it's global footptrint
+2015 AWS finally breaks out its revenue: $6 Billion USD per annum and growing to 90% year on year
+2016 Run rate of $13 billion USD
+2017 AWS re:Invent releases a host of AI services as well as WR services
+
+# AWS new service announcements and updates
+2011 - 82
+2012 - 159
+2013 - 280
+2014 - 516
+2015 - 735
+2016 - 1000
+2017 - 1300+
