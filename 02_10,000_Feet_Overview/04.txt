@@ -1,1 +1,42 @@
-* AWS - Thouand Feet Overview Part 3
+* AWS - 10,000 Feet Overview Part 3
+
+# Management Tools
+1. CloudWatch -  Monitoring service
+2. CloudFormation - It's a way of scripting infrastucture. So CloudFormation turns your infrastucture into code.
+3. CloudTrail - Every time you click inside the AWS Management console and you do something, let's say you are creating a S3 bucket or creating a new instance of EC2, that's basically triggering an API call within the AWS environment, CloudTrail basicallylogs that. CloudTrail is used to basically log changes inside your AWS environment. CloudTrailis turned on by default now but only stores data for one week.
+4. Config - Basically monitors the configuration of your entire AWS environment and it has like point in time snapshots. You can move the time backwards and forwards across weeks or days or months.
+5. OpsWorks - It's a way to automate your environment
+6. Service Catalog - Basically manage a catalog of IT services that are approved for use. These can be anything from virtula machine images, individual operating systems, software, databases
+7. Systems Manager - Basically an interface for managing your AWS resources.
+8. Trusted Advisor - It will give you advice for multiple different disciplines. Will give advice around security. Tell you if you left your ports open that could be a risk.
+9. Managed Services - Don't have to worry about EC2 instances or autoscaling, Managed Services can help you out.
+
+# Media Services
+1. Elastic Transcoder - It resisizes video so that it looks good on an Android or an iPhone etc.
+2. MediaConvert - File based media transcoding service.
+3. MediaLive - Broadcast video broadcast device.
+4. MediaPackage - Prepares and protects video delivery over the internet.
+5. MediaStore - Stores your media.
+6. MediaTailor - Allows you to tragetted advertising into video streams without sacrificing broadcast level quality service.
+
+# Machine Learning
+1. SageMaker - It makes really easy for developers to use deep learning
+2. Comprehend - Sentiment analysis
+3. DeepLens - Its an artificially aware camera. The camera actually can figure out what actaully it's looking at. It's not actaully connecting AWS backend to do this. Its done on the camera itself. Its a physical piece of hardware.
+4. Lex - Powers the Amazon's Alexa service. It's a way of communicating with customers. So it's an artifically intelligent way of chatting to your customers.
+4. Machine Learning - Entry level machine learning not deep learning like SageMaker.
+5. Polly - Takes text and turns into speech. The voices sounds like really human.
+6. Rekognition - Upload a picture or a video, it will tell you what's inside the picture or the video.
+7. Amazon Translate - Translate english into othe languages.
+8. Amazon Transcribe - Automatic speech recognition turns speech to text.
+
+# Analytics
+1. Athena - It allows you to run SQL quries against your S3 buckets. Lets say you have a whole bunch of Excel, CSV, Spreadsheet in your S3 bucket and you wan to find the name of all your employees, you can actaully design SQL queries. Completely serverless.
+2. EMR - (Elastic MapReduce) - Used for processing Big data. It has a whole bunch of servers and it chops your data up for analysis.
+3. CloudSearch - Search Service
+4. ElasticSearch Service - Search Service
+5. Kinesis - A way of ingesting large amount of data into AWS. This could be like social media feeds or tweets. Supoose you want to know this particular hashtag is relevant for your company.
+6. Kinesis Video Stream - Suppose millions of people streaming a video from their mobile devices, Kinesis Video Stream will allow you to ingest this and run a whole bunch of processing against it.
+7. QuickSight -  Amazon's business intelligent tool.
+8. Data Pipeline - Its a way of moving your data between different AWS services.
+9. Glue - Used for ETL (Extract, transform and load)
