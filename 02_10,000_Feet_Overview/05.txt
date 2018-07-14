@@ -1,1 +1,54 @@
 * AWS - 10,000 Feet Overview Part 4
+
+# Security, Identity and Compliance
+1. IAM -  (Identity Access Management) 
+2. Cognito - A way of doing device authentication. You can authenticate using Facebook, Gmail or LinkedIn. Once you are authenticated you can actually use Cognito service to request temporary access to AWS resources.
+3. GuardDuty - It essentially monitors for malicious activities on your AWS account.
+4. Inspector - An agent that you go and install on your virtual machines or on yout EC2 instances and the you can run a whole bunch of tests against it so you can go and say does my EC2 instances have any security vulnerabilities.
+5. Macie - Scans your S3 buckets and look for things that would contain a personally identifiable information.
+6. Certificate Manager -  You get SSL certificates for free if you are using AWS and registering the domains through Route53. So Certificate Magaer is a way of managing your SSL certificates.
+7. CloudHSM - (Cloud hardware Security Module) Dedicated bits of hardware and are used to store your keys (can be public or private keys).
+8. Directory Service - A way of integrating your Microsoft active directory services with AWS services.
+9. WAF - (Web Application Firewall) Stops things like cross-site scripting, SQL injection.
+10 Shield - Helps to prevent DDOS attacks
+11. Attifact - It's a portal for on-demand access to download AWS compliant reposrts and you can also manage select agreements as well.
+
+# Mobile Services
+1. Mobile Hub - Management console, if you already have a mobile app you go in and create a mobile hub and it basically will set up your AWS services for you and generates like a cloud configuration file and then you use AWS mobile SDK to connect your mobile app to your new AWS backend.
+2. Pinpoint - Way of using targeted push notifications to drive mobile engagement.
+3. AWS AppSync - It basically updates the data in web and mobile applications in real time and it also updates the data for offline users as soon as they reconnect.
+4. Device Farm - A way of testing your apps on real live devices, these could be Android deviced, iPhone devices.
+5. Mobile Analytics - An analytic service for mobile.
+
+# AR/VR (Augmented Reality / Virtual Reality)
+1. Sumerian - Its is the first ever language that was written down. So what AWS are trying to say here is once we started writing things down, we have a common set of tools that we could use to communicate to each other. Used for AR, VR and 3D applications.
+
+# Application Integration
+1. Step Functions - Managing your different lambda functions and the different steps to go through it.
+2. Amazon MQ - Message queue (similar to RabbitMQ)
+3. SNS - (Simple Notification Service) Notification Service 
+4. SQS - (Simple Queue Service) Queuing System
+5. SWF - (Simple Workflow Serive)
+
+# Customer Engagement
+1. Connect - Contact Center in the cloud
+2. Simple Email Service - Great way of sending large amount of emails, highly scalable and very cost effective.
+
+# Business Productivity
+1. Alexa for Business - Does whole bunch of different things. You can basically use it to dial into a meeting room, you can use it to inform IT to inform the printer's broken.
+2. Chime - Video conferencing.
+3. Work Docs - Dropbox for AWS.
+4. WorkMail - Using email through Amazon.
+
+# Desktop and App Streaming
+1. Workspaces - VDI solution, so it's literally running the opearing system in Amazon Cloud.
+2. AppStream 2.0 - Way of streaming the actual applications. Application itself is running in the cloud but streamed live to your device.
+
+# Internet of Things
+1. iOT - A way thousand or millions of different devices sending back information could be temperature, humidity.
+2. iOT Device Management - Management iOT devices.
+3. Amazon FreeRTOS - Operating system for microcontrollers.
+4. Greengrass - Software that lets you run local compute messaging, data caching sync and machine learning inteface capabilities for connected devices in a secure way.
+
+# Game Development
+1. GameLift - Service to develop games and these can be VR games as well.

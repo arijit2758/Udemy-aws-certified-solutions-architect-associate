@@ -1,1 +1,14 @@
 * Don't Freak Out
+
+# Solutions Architect Associate (Important)
+1. AWS Global Infrastructure
+2. Compute
+3. Storage
+4. Databases
+5. Migration
+6. Network and Content Delivery
+7. Management Tools
+8. Analytics
+9. Security and Identity and Compliance
+10. Application Integration
+11. Desktop & App Streaming
