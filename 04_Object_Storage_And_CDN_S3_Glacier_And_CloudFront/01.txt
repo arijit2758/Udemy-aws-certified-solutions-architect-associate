@@ -1,1 +1,58 @@
 * S3 - 101
+
+# Definition
+S3 provided developers and IT Teams with secure, durable, high-scalable object storage. It's easy to use, with simple web services interface to store and retrieve any amount of data from anywhere on the web.
+
+# Properties
+1. S3 is object-based i.e. it allows you to upload files
+2. Files can be from 0 bytes to 5 TB.
+3. There is unlimited storage.
+4. Files are stored in buckets.
+5. S3 is a universal namespace. That is, names must be unique globally.
+6. service-region.amazonaws.com/bucketName
+    Example - https://s3-eu-west-1.amazonaws.com/acloudguru
+7. When you upload a file in S3, you will recieve a HTTP 200 code if the upload is successful.
+
+# Data Consistency Model for S3
+1. Read after Write consistency for PUTS new Objects.
+2. Eventual consistency for overwrite PUTS and DELETE (can take some time to propagate).
+
+# S3 is a simple key-value store
+1. S3 is object based. Objects consist of the following:
+    - Key (Name of the object)
+    - Value (This is simply the data and is made up of a sequence of bytes)
+    - Version ID (Important for versioning)
+    - Metadata (Data about data you are storing)
+    - Subresources:
+        - Access Control Lists (You can put individual access to your files)
+        - Torrent
+
+# S3 - The Basics
+1. Built for 99.99% availability for S3 platform.
+2. Amazon guarantee 99.9% of availability.
+3. Amazon guarantees 99.999999999% durability for S3 information. (Remember 11x9s)
+4. Tiered storage is available.
+5. Lifecycle management
+6. Versioning
+7. Encryption
+8. Secure your data using Access Control Lists and Bucket Policies.
+
+# S3 storage Tiers/Classes
+1. S3 standard: 99.99% availability, 99.999999999% durability, stored redundantly across multiple devices in multiple facilities, and is designed to sustain the loss of 2 facilities concurrently.
+2. S3 - IA: (infrequently Accessed) - For data that are accessed less frequently, but requires rapid access when needed. Lower fee than S3 but you are charged an retrieval fee.
+3. S3 One Zone - IA: Want a lower-cost option for less frequently accessed data, but do not require multiple availability zones data resilience.
+4. Glacier: Very cheap, used for archival only. Expedidited, Standard or Bulk. A standard retrieval takes 3 - 5 hours.
+
+# S3 charges:
+1. Storage
+2. Requests
+3. Storage Management Pricing
+4. Data Transfer Pricing
+5. Transfer Accelaration
+
+# Transfer Accelaration
+1. Amazon S3 Transfer Accelaration enables fast, asy and secure transfer of files ver long distances between your end users and an S3 bucket.
+2. Transfer Accelaration takes advantage of Amazon's CloudFront's globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+
+# Important
+1. Read the S3 FAQs before taking the exam. It comes up a lot.

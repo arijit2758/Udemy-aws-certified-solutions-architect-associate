@@ -1,1 +1,18 @@
 * Cross Recognition Replication
+
+# Terminal Commands for copy objects from one bucket to another
+➜  ~ aws configure
+AWS Access Key ID [****************JD6A]: AKIAJAASBW5YVVOKW3IA
+AWS Secret Access Key [****************SglM]: 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
+Default region name [ap-south-1]:
+Default output format [json]:
+➜  ~ aws s3 ls
+2018-08-14 11:10:33 arijit-mukhopadhyay
+2018-08-14 11:09:52 arijit-mukhopadhyay-sydeny
+➜  ~ aws s3 cp --recursive s3://arijit-mukhopadhyay s3://arijit-mukhopadhyay-sydeny
+copy: s3://arijit-mukhopadhyay/hello.txt to s3://arijit-mukhopadhyay-sydeny/hello.txt
+copy: s3://arijit-mukhopadhyay/unnamed.png to s3://arijit-mukhopadhyay-sydeny/unnamed.png
+
+# Note
+1. When you delete an object that deletion marker is replicated across. When you delete a deletion marker, it's not replicated across.
+2. When you delete a particular version of an object, that deletion is not replicated over cross region.
