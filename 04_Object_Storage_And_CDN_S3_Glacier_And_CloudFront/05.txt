@@ -6,4 +6,4 @@
 3. Following actions can now be done:
     - Transition to the Standard - Infrequent Access Storage Class (30 days after the creation date)
     - Archive to the Glacier Storage Class (30 days after IS, if relevant)
-    - Permanently delete
+    - Permanently delete 
